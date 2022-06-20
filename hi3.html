@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media(max-width: 701px){
+            button{
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body font-family="'Comic Sans MS'">
+    <h1 style="text-align: center;">Minecraft</h1><br>
+    <button id="putr" onclick="alert('6 wood logs aquaired');firen();">Punch a tree</button><br><br>
+
+    <details id="inv" style="display: none;">
+        <summary>Inventory</summary><br>
+        <button id="wopl" onclick="alert('24 wood planks aquaired');wopl();">Make Wood planks</button><br><br>
+        <button id="sti" style="display: none;" onclick="alert('16 sticks aquaired');funcpick()">Make sticks</button><br>
+        <button id="wocrt" style="display: none;" onclick="alert('Workbench aquaired');trb()">Craft a Workbench</button>
+    </details><br>
+    <details id="crtb" style="display: none;">
+        <summary>Workbench</summary><br>
+        <button id="wopicr" onclick="alert('Wooden pick aquaired');stovis()">Craft a wood pickaxe</button>&nbsp;<button onclick="alert('Wooden sword aquaired');woswcr()">Craft a wood sword</button>&nbsp;<button onclick="alert('Wooden axe aquaired');">Craft a axe pickaxe</button>&nbsp;<button onclick="alert('Wooden shovel aquaired');">Craft a shovel pickaxe</button>&nbsp;<button onclick="alert('Wooden hoe aquaired');">Craft a wood hoe</button><br>
+    </details><br>
+    <button id="wopist" onclick="alert(`You got ${dirt} dirt and ${stone} stone.`);" style="display: none;">Mine stone</button><br>
+    <button id="woswst" onclick="alert(`you got ${xp} xp.`);" style="display: none;">Kill zombie</button><br>
+
+    <script>
+        function firen(){
+            document.getElementById("inv").style.display = "block";
+        };
+        function wopl(){
+            document.getElementById("sti").style.display = "block";
+        };
+        function funcpick(){
+            document.getElementById("wocrt").style.display = "block";
+        };
+        function trb(){
+            document.getElementById("crtb").style.display = "block";
+        };
+        function stovis(){
+            document.getElementById("wopist").style.display = "block";
+        };
+        function woswcr(){
+            document.getElementById("woswst").style.display = "block";
+        };
+        var dirt = Math.floor(Math.random() * (5 - 1)) + 1;
+        var stone = Math.floor(Math.random() * (15 - 1)) + 1;
+        var xp = Math.floor(Math.random() * (3 - 1)) + 1;
+        var wopic = `You got ${dirt} dirt and ${stone} stone.`;
+        
+    </script>
+</body>
+</html>
