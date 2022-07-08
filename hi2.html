@@ -5,15 +5,40 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Calculator</title>
+	<style>
+		h1{
+			text-align: center;
+		}
+
+		button{
+			height: 100px;
+			width: 100px;
+			margin: 20px;
+		}
+
+		.grid{
+			height: 500px;
+			width: 500px;
+			margin-left: 540px;
+		}
+
+		@media (max-width: 426px){
+			.grid{
+				margin-left: 100px;
+			}
+		}
+	</style>
 </head>
 <body>
-	<h1 style="text-align: center;">Calculator</h1>
-	<button onclick="add()">Add</button><br><br>
-	<button onclick="sub()">Subtract</button><br><br>
-	<button onclick="mul()">Multiply</button><br><br>
-	<button onclick="div()">Divide</button><br><br>
-	<button onclick="rou()">Round</button><br><br>
-	<button onclick="pow()">Find exponent</button><br><br>
+	<h1>Calculator</h1>
+	<div class="grid">
+		<button onclick="add()">Add</button>&nbsp;
+		<button onclick="sub()">Subtract</button>&nbsp;
+		<button onclick="mul()">Multiply</button>&nbsp;
+		<button onclick="div()">Divide</button>&nbsp;
+		<button onclick="rou()">Round</button>&nbsp;
+		<button onclick="pow()">Find exponent</button>
+	</div>
 	<script>
 		function add(){
 			let fNum = prompt("Enter first number to add");
