@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Calculator</h1>
+	<button onclick="add()">Add</button><br><br>
+	<button onclick="sub()">Subtract</button><br><br>
+	<button onclick="mul()">Multiply</button><br><br>
+	<button onclick="div()">Divide</button><br><br>
+	<button onclick="rou()">Round</button><br><br>
+	<button onclick="pow()">Find exponent</button><br><br>
+	<script>
+		function add(){
+			let fNum = prompt("Enter first number to add");
+			fNum = Number(fNum);
+			let lNum = prompt("Enter second number to add");
+			lNum = Number(lNum);
+			alert(`${fNum + lNum} is the answer.`);
+		}
+
+		function sub(){
+			let fNum = prompt("Enter first number to subtract from");
+			fNum = Number(fNum);
+			let lNum = prompt("Enter second number to subtract by first number");
+			lNum = Number(lNum);
+			alert(`${fNum - lNum} is the answer.`);
+		}
+
+		function mul(){
+			let fNum = prompt("Enter first number to multiply");
+			fNum = Number(fNum);
+			let lNum = prompt("Enter second number to multiply");
+			lNum = Number(lNum);
+			alert(`${fNum * lNum} is the answer.`);
+		}
+
+		function div(){
+			let fNum = prompt("Enter the divedend");
+			fNum = Number(fNum);
+			let lNum = prompt("Enter the divisor");
+			lNum = Number(lNum);
+			alert(`${fNum / lNum} is the answer.`);
+		}
+
+		function rou(){
+			let fNum = prompt("Enter number to be rounded");
+			fNum = Number(fNum);
+			alert(`${Math.round(fNum)} is the answer.`);
+		}
+
+		function pow(){
+			let fNum = prompt("Enter the number");
+			fNum = Number(fNum);
+			let lNum = prompt("Enter the exponent");
+			lNum = Number(lNum);
+			alert(`${Math.pow(fNum, lNum)} is the answer.`);
+		}
+	</script>
+</body>
+</html>
