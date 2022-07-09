@@ -38,6 +38,10 @@
 			.grid:last-child{
 				font-size: 7px;
 			}
+			.meBtn{
+				margin-left: 20px;
+				margin-top: 0;
+			}
 		}
 	</style>
 </head>
@@ -46,10 +50,10 @@
 	<div class="grid">
 		<button onclick="add()">Add</button>&nbsp;
 		<button onclick="sub()">Subtract</button>&nbsp;
-		<button onclick="mul()">Multiply</button>&nbsp;
+		<button onclick="mul()">Multiply</button>&nbsp;<br>
 		<button onclick="div()">Divide</button>&nbsp;
 		<button onclick="rou()">Round</button>&nbsp;
-		<button onclick="pow()">Find exponent</button>
+		<button onclick="pow()" class="meBtn">Find exponent</button>
 	</div>
 	<script>
 		function add(){
