@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,7 +86,11 @@
 			fNum = Number(fNum);
 			let lNum = prompt("Enter the divisor");
 			lNum = Number(lNum);
-			alert(`${fNum / lNum} is the answer.`);
+			if(lNum == 0){
+				alert(`This is not possible`);
+			}else{
+				alert(`${fNum / lNum} is the answer.`);
+			}
 		}
 
 		function rou(){
