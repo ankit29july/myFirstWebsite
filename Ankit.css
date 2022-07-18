@@ -163,46 +163,45 @@
     color: rgb(255, 255, 255);
 }
 
-.ma5{
+.ma-5{
     margin: 50px;
 }
 
-.pa5{
+.pa-5{
     padding: 50px;
 }
 
-.ma4{
+.ma-4{
     margin: 40px;
 }
 
-.pa4{
-    padding: 40px;
+.pa-4{
+    padding:40px;
 }
 
-.ma3{
+.ma-3{
     margin: 30px;
 }
 
-.pa3{
+.pa-3{
     padding: 30px;
 }
 
-.ma2{
+.ma-2{
     margin: 20px;
 }
 
-.pa2{
+.pa-2{
     padding: 20px;
 }
 
-.ma1{
+.ma-1{
     margin: 10px;
 }
 
-.pa1{
+.pa-1{
     padding: 10px;
 }
-
 
 .center-item{
     display: flex;
