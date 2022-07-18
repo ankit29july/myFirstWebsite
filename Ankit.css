@@ -95,16 +95,44 @@
     background: rgb(255, 255, 255);
 }
 
-.border{
+.bor{
     border: 1px solid grey;
 }
 
-.border2{
+.bor2{
     border: 5px solid black;
 }
 
-.border3{
+.bor3{
     border: 10px solid black;
+}
+
+.bor-org{
+    border-color: orange;
+}
+
+.bor-bl{
+    border-color: #3c3cef;
+}
+
+.bor-red{
+    border-color: red;
+}
+
+.bor-pn{
+    border-color: pink;
+}
+
+.bor-grey{
+    border-color: grey;
+}
+
+.bor-gray{
+    border-color: gray;
+}
+
+.bor-yl{
+    border-color: yellow;
 }
 
 .ari{
