@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CSS</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Tribute to technoblade</h1>
+	<details>
+		<summary>Read about him</summary>
+		<h3>If you didn't know already, he<br>
+			was the greatest minecraft player<br>
+			ever. He died on the last day <br>
+			of the last month(30/6/22). It was cancer<br>
+			who killed him. He could not survive<br>
+			since he had stage 4 cancer which is the<br>
+			most lethal form of the disease.<br>
+			(Sigh), he was a great leader of<br>
+			this game. He may have died, but <br>
+			he will forever be remembered.
+			<br><br>
+			Ankit---
+		</h3>
+	</details>
+</body>
+</html>
